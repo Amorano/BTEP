@@ -15,16 +15,19 @@ for category in os.listdir(root):
 	if not os.path.isdir(f):
 		continue
 
-	body += f"<h1>{category.upper()}</h1>\n\n"
+	idx = 0
+	sub = ""
 	for im in os.listdir(f):
 		if not im.endswith('.png'):
 			continue
 		im = f"{f}/{im}"
 		im = im.split('/')
-		line = f'[<img src="{url}/{im[1]}/{im[2]}" width="128" height="128">]({url}/{im[1]}/{im[2]})\n'
-		body += line
+		sub += f'[<img src="{url}/{im[1]}/{im[2]}" width="128" height="128">]({url}/{im[1]}/{im[2]})\n'
+		idx += 1
 
+	body += f"<h1>{category.upper()} [{idx}]</h1>\n\n"
+	body += sub
 	body += "\n\n"
 
-with open('__out.txt', 'w+') as f:
+with open('__out.txt', 'w+', encoding='utf-8') as f:
 	f.write(body)
