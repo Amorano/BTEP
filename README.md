@@ -18,3 +18,11 @@ Pilot files can be in DDS format with the orirentation upside down --or-- in nor
 
 EMBLEMS ==> BATTLETECH / Mods / Options / Emblems / All3025Mercs<br>
 PILOTS  ==> BATTLETECH / Mods / Core / CommanderPortraitLoader / Portraits
+
+<h2>The Gryphonheart Gift</h2>
+<p>Because these are made generatively, sometimes they dont come out exactly as someone would like, especially when it comes to the background of the emblem or pilot icon.</p>
+<p><b>As Gryphonheart pointed out when I first posted an example of the portraits: </b></p>
+<blockquote><i>"Oh wow! Those are nice! Although i'd choose a different background. That white is bright as hell - IMO"</i></blockquote>
+<p>He is not wrong, I would also choose better or transparent backgrounds (when available). SO...</p>
+<p>Because this is not a normal code repository, I leave it mostly to everyone to shepard the icons how they would like; however, if you find a set of icons you would like adjusted to fit a theme or color palette, please make a ticket with the icon and adjustment you want to see.
+I can then make a few runs of that and add the extras to the general pool for everyone.</p>
