@@ -99,5 +99,5 @@ def sidebar():
 		f.write(body)
 
 if __name__ == "__main__":
-	# pilot()
-	sidebar()
+	pilot()
+	# sidebar()
